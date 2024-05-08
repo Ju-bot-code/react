@@ -1,0 +1,9 @@
+.list-stuff {
+  list-style-type: none;
+}
+
+.list-container{
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 20px;
+}
