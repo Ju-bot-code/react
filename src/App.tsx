@@ -20,7 +20,9 @@ import ReactHookorm from "./component/forms/reactHookorm";
 import { useState } from "react";
 
 // useEffect
-import UsEffect from './component/usEffect'
+import UsEffect from "./component/usEffect";
+
+import Curd from "./component/http/curd";
 
 // mini project
 import Expense from "./expenseTracker/component/expense";
@@ -78,6 +80,7 @@ function App() {
         items={navItems}
       ></Nav>
       <div className="p-4">
+        <Curd></Curd>
         <UsEffect></UsEffect>
         <Expense></Expense>
         <ZodValidation></ZodValidation>
